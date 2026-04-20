@@ -1,0 +1,17 @@
+{
+  "name": "dsc-local-deployment-dashboard",
+  "version": "1.0.0",
+  "description": "Browser-based dashboard for the FIWARE Data Space Connector local deployment walkthrough",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
